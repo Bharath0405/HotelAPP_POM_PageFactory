@@ -1,49 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27937" started-at="2019-01-13T14:16:54Z" finished-at="2019-01-13T14:17:22Z">
+  <suite name="Hotel App Application Test Automation Test Suite" duration-ms="66201" started-at="2019-01-14T11:17:46Z" finished-at="2019-01-14T11:18:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27937" started-at="2019-01-13T14:16:54Z" finished-at="2019-01-13T14:17:22Z">
+    <test name="HotelApp Test Cases" duration-ms="66201" started-at="2019-01-14T11:17:46Z" finished-at="2019-01-14T11:18:52Z">
       <class name="com.hotelapp.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotelapp.qa.testcases.LoginPageTest@28d25987]" name="setUp" is-config="true" duration-ms="11374" started-at="2019-01-13T19:46:55Z" finished-at="2019-01-13T19:47:06Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotelapp.qa.testcases.LoginPageTest@5b275dab]" name="setUp" is-config="true" duration-ms="6144" started-at="2019-01-14T16:47:46Z" finished-at="2019-01-14T16:47:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.hotelapp.qa.testcases.LoginPageTest@28d25987]" name="loginPageTitleTest" duration-ms="44" started-at="2019-01-13T19:47:06Z" finished-at="2019-01-13T19:47:06Z">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.hotelapp.qa.testcases.LoginPageTest@5b275dab]" name="loginPageTitleTest" duration-ms="23" started-at="2019-01-14T16:47:52Z" finished-at="2019-01-14T16:47:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotelapp.qa.testcases.LoginPageTest@28d25987]" name="tearDown" is-config="true" duration-ms="1193" started-at="2019-01-13T19:47:06Z" finished-at="2019-01-13T19:47:07Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotelapp.qa.testcases.LoginPageTest@5b275dab]" name="tearDown" is-config="true" duration-ms="892" started-at="2019-01-14T16:47:52Z" finished-at="2019-01-14T16:47:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotelapp.qa.testcases.LoginPageTest@28d25987]" name="setUp" is-config="true" duration-ms="6025" started-at="2019-01-13T19:47:07Z" finished-at="2019-01-13T19:47:13Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotelapp.qa.testcases.LoginPageTest@5b275dab]" name="setUp" is-config="true" duration-ms="5050" started-at="2019-01-14T16:48:08Z" finished-at="2019-01-14T16:48:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageLogoTest()[pri:2, instance:com.hotelapp.qa.testcases.LoginPageTest@28d25987]" name="loginPageLogoTest" duration-ms="56" started-at="2019-01-13T19:47:13Z" finished-at="2019-01-13T19:47:13Z">
+        <test-method status="PASS" signature="loginPageLogoTest()[pri:2, instance:com.hotelapp.qa.testcases.LoginPageTest@5b275dab]" name="loginPageLogoTest" duration-ms="55" started-at="2019-01-14T16:48:13Z" finished-at="2019-01-14T16:48:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotelapp.qa.testcases.LoginPageTest@28d25987]" name="tearDown" is-config="true" duration-ms="888" started-at="2019-01-13T19:47:13Z" finished-at="2019-01-13T19:47:14Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotelapp.qa.testcases.LoginPageTest@5b275dab]" name="tearDown" is-config="true" duration-ms="893" started-at="2019-01-14T16:48:13Z" finished-at="2019-01-14T16:48:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotelapp.qa.testcases.LoginPageTest@28d25987]" name="setUp" is-config="true" duration-ms="5758" started-at="2019-01-13T19:47:14Z" finished-at="2019-01-13T19:47:20Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotelapp.qa.testcases.LoginPageTest@5b275dab]" name="setUp" is-config="true" duration-ms="5002" started-at="2019-01-14T16:48:37Z" finished-at="2019-01-14T16:48:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.hotelapp.qa.testcases.LoginPageTest@28d25987]" name="loginTest" duration-ms="1475" started-at="2019-01-13T19:47:20Z" finished-at="2019-01-13T19:47:21Z">
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.hotelapp.qa.testcases.LoginPageTest@5b275dab]" name="loginTest" duration-ms="1241" started-at="2019-01-14T16:48:42Z" finished-at="2019-01-14T16:48:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotelapp.qa.testcases.LoginPageTest@28d25987]" name="tearDown" is-config="true" duration-ms="1077" started-at="2019-01-13T19:47:21Z" finished-at="2019-01-13T19:47:22Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotelapp.qa.testcases.LoginPageTest@5b275dab]" name="tearDown" is-config="true" duration-ms="872" started-at="2019-01-14T16:48:44Z" finished-at="2019-01-14T16:48:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.hotelapp.qa.testcases.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.hotelapp.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotelapp.qa.testcases.HomePageTest@61832929]" name="setUp" is-config="true" duration-ms="6413" started-at="2019-01-14T16:47:53Z" finished-at="2019-01-14T16:47:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="vaidateHomePageTest()[pri:1, instance:com.hotelapp.qa.testcases.HomePageTest@61832929]" name="vaidateHomePageTest" duration-ms="64" started-at="2019-01-14T16:47:59Z" finished-at="2019-01-14T16:47:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vaidateHomePageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotelapp.qa.testcases.HomePageTest@61832929]" name="tearDown" is-config="true" duration-ms="992" started-at="2019-01-14T16:47:59Z" finished-at="2019-01-14T16:48:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotelapp.qa.testcases.HomePageTest@61832929]" name="setUp" is-config="true" duration-ms="6098" started-at="2019-01-14T16:48:14Z" finished-at="2019-01-14T16:48:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyUserTest()[pri:2, instance:com.hotelapp.qa.testcases.HomePageTest@61832929]" name="verifyUserTest" duration-ms="59" started-at="2019-01-14T16:48:20Z" finished-at="2019-01-14T16:48:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotelapp.qa.testcases.HomePageTest@61832929]" name="tearDown" is-config="true" duration-ms="924" started-at="2019-01-14T16:48:20Z" finished-at="2019-01-14T16:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotelapp.qa.testcases.HomePageTest@61832929]" name="setUp" is-config="true" duration-ms="5956" started-at="2019-01-14T16:48:45Z" finished-at="2019-01-14T16:48:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickOnSearchHhotelTest()[pri:3, instance:com.hotelapp.qa.testcases.HomePageTest@61832929]" name="clickOnSearchHhotelTest" duration-ms="344" started-at="2019-01-14T16:48:51Z" finished-at="2019-01-14T16:48:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSearchHhotelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotelapp.qa.testcases.HomePageTest@61832929]" name="tearDown" is-config="true" duration-ms="859" started-at="2019-01-14T16:48:51Z" finished-at="2019-01-14T16:48:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hotelapp.qa.testcases.HomePageTest -->
+      <class name="com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@29774679]" name="setUp" is-config="true" duration-ms="6529" started-at="2019-01-14T16:48:00Z" finished-at="2019-01-14T16:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateSearchPageTest()[pri:1, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@29774679]" name="validateSearchPageTest" duration-ms="72" started-at="2019-01-14T16:48:07Z" finished-at="2019-01-14T16:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@29774679]" name="tearDown" is-config="true" duration-ms="898" started-at="2019-01-14T16:48:07Z" finished-at="2019-01-14T16:48:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@29774679]" name="setUp" is-config="true" duration-ms="6259" started-at="2019-01-14T16:48:21Z" finished-at="2019-01-14T16:48:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchSelectBookHotelTest()[pri:2, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@29774679]" name="searchSelectBookHotelTest" duration-ms="9587" started-at="2019-01-14T16:48:27Z" finished-at="2019-01-14T16:48:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSelectBookHotelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@29774679]" name="tearDown" is-config="true" duration-ms="913" started-at="2019-01-14T16:48:37Z" finished-at="2019-01-14T16:48:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest -->
+    </test> <!-- HotelApp Test Cases -->
+  </suite> <!-- Hotel App Application Test Automation Test Suite -->
 </testng-results>
