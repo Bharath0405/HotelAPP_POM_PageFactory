@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Hotel App Application Test Automation Test Suite]">
-  <test name="HotelApp Test Cases(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="searchSelectBookHotelTest"/>
-        </methods>
-      </class> <!-- com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest -->
       <class name="com.hotelapp.qa.testcases.LoginPageTest">
         <methods>
           <include name="tearDown"/>
@@ -17,13 +10,6 @@
           <include name="loginTest"/>
         </methods>
       </class> <!-- com.hotelapp.qa.testcases.LoginPageTest -->
-      <class name="com.hotelapp.qa.testcases.HomePageTest">
-        <methods>
-          <include name="clickOnSearchHhotelTest"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.hotelapp.qa.testcases.HomePageTest -->
     </classes>
-  </test> <!-- HotelApp Test Cases(failed) -->
-</suite> <!-- Failed suite [Hotel App Application Test Automation Test Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

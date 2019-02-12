@@ -1,13 +1,17 @@
 package com.hotelapp.qa.util;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 
 import com.hotelapp.qa.base.TestBase;
 
@@ -21,6 +25,9 @@ public class TestUtil extends TestBase {
 	static Workbook book;
 	static Sheet sheet;
 
+	//Read data from an XL "util method"
+	
+	
 	public static Object[][] getTestData(String sheetName) {
 		FileInputStream file = null;
 		try {
@@ -47,6 +54,14 @@ public class TestUtil extends TestBase {
 			}
 		}
 		return data;
+	}
+	
+	// Take a screenshot for an exception "util method"
+	
+	public static void takeScreenshotAtEndOfTest() throws IOException {
+		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		String currentDir = System.getProperty("user.dir");
+		FileUtils.copyFile(scrFile, new File(currentDir + "/screenshots/" + System.currentTimeMillis() + ".png"));
 	}
 
 }

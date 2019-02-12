@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="HotelApp Application Test Automation Test Suite">
-	<test name="HotelApp Test Cases">
+<suite name="HotelApp Application Test Automation Sanity Test Suite">
+
+<listeners>
+		<listener
+			class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+	
+	<test name="HotelApp Test Cases - Sanity Test">
 		<classes>
 			<class name="com.hotelapp.qa.testcases.LoginPageTest"></class>
 			<class name="com.hotelapp.qa.testcases.HomePageTest"></class>
