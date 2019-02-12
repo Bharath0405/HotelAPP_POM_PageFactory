@@ -7,7 +7,7 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="searchSelectBookHotelTest"/>
+          <include name="searchSelectBookHotelTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest -->
     </classes>

@@ -1,60 +1,812 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" ignored="1" total="2" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="942" started-at="2019-01-15T15:53:40Z" finished-at="2019-01-15T15:53:41Z">
+  <suite name="Hotel App Application Test Automation Test Suite" duration-ms="318501" started-at="2019-02-12T10:07:08Z" finished-at="2019-02-12T10:12:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="942" started-at="2019-01-15T15:53:40Z" finished-at="2019-01-15T15:53:41Z">
+    <test name="HotelApp Test Cases" duration-ms="318501" started-at="2019-02-12T10:07:08Z" finished-at="2019-02-12T10:12:26Z">
+      <class name="com.hotelapp.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotelapp.qa.testcases.LoginPageTest@29774679]" name="setUp" is-config="true" duration-ms="9068" started-at="2019-02-12T15:37:08Z" finished-at="2019-02-12T15:37:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.hotelapp.qa.testcases.LoginPageTest@29774679]" name="loginPageTitleTest" duration-ms="11" started-at="2019-02-12T15:37:17Z" finished-at="2019-02-12T15:37:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotelapp.qa.testcases.LoginPageTest@29774679]" name="tearDown" is-config="true" duration-ms="743" started-at="2019-02-12T15:37:17Z" finished-at="2019-02-12T15:37:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotelapp.qa.testcases.LoginPageTest@29774679]" name="setUp" is-config="true" duration-ms="5798" started-at="2019-02-12T15:37:37Z" finished-at="2019-02-12T15:37:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageLogoTest()[pri:2, instance:com.hotelapp.qa.testcases.LoginPageTest@29774679]" name="loginPageLogoTest" duration-ms="45" started-at="2019-02-12T15:37:43Z" finished-at="2019-02-12T15:37:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotelapp.qa.testcases.LoginPageTest@29774679]" name="tearDown" is-config="true" duration-ms="750" started-at="2019-02-12T15:37:43Z" finished-at="2019-02-12T15:37:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotelapp.qa.testcases.LoginPageTest@29774679]" name="setUp" is-config="true" duration-ms="6497" started-at="2019-02-12T15:42:03Z" finished-at="2019-02-12T15:42:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.hotelapp.qa.testcases.LoginPageTest@29774679]" name="loginTest" duration-ms="3716" started-at="2019-02-12T15:42:10Z" finished-at="2019-02-12T15:42:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotelapp.qa.testcases.LoginPageTest@29774679]" name="tearDown" is-config="true" duration-ms="753" started-at="2019-02-12T15:42:13Z" finished-at="2019-02-12T15:42:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hotelapp.qa.testcases.LoginPageTest -->
+      <class name="com.hotelapp.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotelapp.qa.testcases.HomePageTest@3ffc5af1]" name="setUp" is-config="true" duration-ms="9183" started-at="2019-02-12T15:37:18Z" finished-at="2019-02-12T15:37:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="vaidateHomePageTest()[pri:1, instance:com.hotelapp.qa.testcases.HomePageTest@3ffc5af1]" name="vaidateHomePageTest" duration-ms="73" started-at="2019-02-12T15:37:27Z" finished-at="2019-02-12T15:37:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vaidateHomePageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotelapp.qa.testcases.HomePageTest@3ffc5af1]" name="tearDown" is-config="true" duration-ms="804" started-at="2019-02-12T15:37:27Z" finished-at="2019-02-12T15:37:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotelapp.qa.testcases.HomePageTest@3ffc5af1]" name="setUp" is-config="true" duration-ms="9370" started-at="2019-02-12T15:37:43Z" finished-at="2019-02-12T15:37:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyUserTest()[pri:2, instance:com.hotelapp.qa.testcases.HomePageTest@3ffc5af1]" name="verifyUserTest" duration-ms="45" started-at="2019-02-12T15:37:53Z" finished-at="2019-02-12T15:37:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotelapp.qa.testcases.HomePageTest@3ffc5af1]" name="tearDown" is-config="true" duration-ms="817" started-at="2019-02-12T15:37:53Z" finished-at="2019-02-12T15:37:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotelapp.qa.testcases.HomePageTest@3ffc5af1]" name="setUp" is-config="true" duration-ms="10771" started-at="2019-02-12T15:42:14Z" finished-at="2019-02-12T15:42:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickOnSearchHhotelTest()[pri:3, instance:com.hotelapp.qa.testcases.HomePageTest@3ffc5af1]" name="clickOnSearchHhotelTest" duration-ms="711" started-at="2019-02-12T15:42:25Z" finished-at="2019-02-12T15:42:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSearchHhotelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotelapp.qa.testcases.HomePageTest@3ffc5af1]" name="tearDown" is-config="true" duration-ms="728" started-at="2019-02-12T15:42:26Z" finished-at="2019-02-12T15:42:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hotelapp.qa.testcases.HomePageTest -->
       <class name="com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest">
-        <test-method status="SKIP" signature="searchSelectBookHotelTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@3ffc5af1]" name="searchSelectBookHotelTest" duration-ms="0" started-at="2019-01-15T21:23:41Z" data-provider="getHotelappTestData" finished-at="2019-01-15T21:23:41Z">
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[java.lang.NullPointerException]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:115)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.NullPointerException
-	at com.hotelapp.qa.util.TestUtil.getTestData(TestUtil.java:43)
-	at com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest.getHotelappTestData(searchBookConfirmHotelPageTest.java:48)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:55)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-	... 22 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="setUp" is-config="true" duration-ms="8170" started-at="2019-02-12T15:37:28Z" finished-at="2019-02-12T15:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateSearchPageTest()[pri:1, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="validateSearchPageTest" duration-ms="80" started-at="2019-02-12T15:37:36Z" finished-at="2019-02-12T15:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="tearDown" is-config="true" duration-ms="830" started-at="2019-02-12T15:37:36Z" finished-at="2019-02-12T15:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="setUp" is-config="true" duration-ms="10817" started-at="2019-02-12T15:37:55Z" finished-at="2019-02-12T15:38:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchSelectBookHotelTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="searchSelectBookHotelTest" duration-ms="11969" started-at="2019-02-12T15:38:06Z" data-provider="getHotelappTestData" finished-at="2019-02-12T15:38:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Melbourne]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Double]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3 - Three]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[14/02/2019]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[18/02/2019]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Jon]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Snow]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Winterfell]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchSelectBookHotelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="tearDown" is-config="true" duration-ms="1294" started-at="2019-02-12T15:38:18Z" finished-at="2019-02-12T15:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="setUp" is-config="true" duration-ms="9995" started-at="2019-02-12T15:38:19Z" finished-at="2019-02-12T15:38:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchSelectBookHotelTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="searchSelectBookHotelTest" duration-ms="11706" started-at="2019-02-12T15:38:29Z" data-provider="getHotelappTestData" finished-at="2019-02-12T15:38:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Sunshine]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3 - Three]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3 - Three]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[15/02/2019]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[16/03/2019]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Tyrion]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Lanister]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[KingsLanding]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Master Card]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[June]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSelectBookHotelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="tearDown" is-config="true" duration-ms="793" started-at="2019-02-12T15:38:41Z" finished-at="2019-02-12T15:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="setUp" is-config="true" duration-ms="13359" started-at="2019-02-12T15:38:41Z" finished-at="2019-02-12T15:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchSelectBookHotelTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="searchSelectBookHotelTest" duration-ms="12334" started-at="2019-02-12T15:38:55Z" data-provider="getHotelappTestData" finished-at="2019-02-12T15:39:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Brisbane]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Hervey]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Deluxe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[16/02/2013]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[14/03/2019]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Arya]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Stark]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Bravos]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[American Express]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[July]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSelectBookHotelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="tearDown" is-config="true" duration-ms="858" started-at="2019-02-12T15:39:07Z" finished-at="2019-02-12T15:39:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="setUp" is-config="true" duration-ms="30125" started-at="2019-02-12T15:39:08Z" finished-at="2019-02-12T15:39:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchSelectBookHotelTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="searchSelectBookHotelTest" duration-ms="12366" started-at="2019-02-12T15:39:38Z" data-provider="getHotelappTestData" finished-at="2019-02-12T15:39:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Adelaide]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Cornice]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Super Deluxe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5 - Five]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[16/02/2019]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[17/03/2019]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Dany]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Targarian]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Andals]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[August]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSelectBookHotelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="tearDown" is-config="true" duration-ms="863" started-at="2019-02-12T15:39:51Z" finished-at="2019-02-12T15:39:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="setUp" is-config="true" duration-ms="10164" started-at="2019-02-12T15:39:51Z" finished-at="2019-02-12T15:40:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchSelectBookHotelTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="searchSelectBookHotelTest" duration-ms="12125" started-at="2019-02-12T15:40:02Z" data-provider="getHotelappTestData" finished-at="2019-02-12T15:40:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Deluxe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6 - Six]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3 - Three]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3 - Three]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[18/02/2019]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[13/03/2019]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Sansa]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Stark]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Winterfell]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Master Card]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[January]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSelectBookHotelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="tearDown" is-config="true" duration-ms="813" started-at="2019-02-12T15:40:14Z" finished-at="2019-02-12T15:40:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="setUp" is-config="true" duration-ms="12639" started-at="2019-02-12T15:40:14Z" finished-at="2019-02-12T15:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchSelectBookHotelTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="searchSelectBookHotelTest" duration-ms="11651" started-at="2019-02-12T15:40:27Z" data-provider="getHotelappTestData" finished-at="2019-02-12T15:40:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Sunshine]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Double]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7 - Seven]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[19/02/2019]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[03-Dec-2019]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Ser]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Davos]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Seaworth]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[American Express]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[April]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSelectBookHotelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="tearDown" is-config="true" duration-ms="827" started-at="2019-02-12T15:40:39Z" finished-at="2019-02-12T15:40:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="setUp" is-config="true" duration-ms="12449" started-at="2019-02-12T15:40:40Z" finished-at="2019-02-12T15:40:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchSelectBookHotelTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="searchSelectBookHotelTest" duration-ms="18264" started-at="2019-02-12T15:40:52Z" data-provider="getHotelappTestData" finished-at="2019-02-12T15:41:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Los Angeles]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Hervey]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8 - Eight]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[21/02/2019]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[21/03/2019]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Jamie]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Lanister]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Harrenhall]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSelectBookHotelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="tearDown" is-config="true" duration-ms="802" started-at="2019-02-12T15:41:10Z" finished-at="2019-02-12T15:41:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="setUp" is-config="true" duration-ms="14345" started-at="2019-02-12T15:41:11Z" finished-at="2019-02-12T15:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchSelectBookHotelTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="searchSelectBookHotelTest" duration-ms="13126" started-at="2019-02-12T15:41:25Z" data-provider="getHotelappTestData" finished-at="2019-02-12T15:41:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Cornice]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Deluxe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9 - Nine]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3 - Three]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[25/02/2019]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[20/03/2019]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Yara]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Grajoy]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Iron Highets]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Master Card]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[December]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSelectBookHotelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="tearDown" is-config="true" duration-ms="809" started-at="2019-02-12T15:41:39Z" finished-at="2019-02-12T15:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="setUp" is-config="true" duration-ms="11140" started-at="2019-02-12T15:41:39Z" finished-at="2019-02-12T15:41:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchSelectBookHotelTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="searchSelectBookHotelTest" duration-ms="11754" started-at="2019-02-12T15:41:51Z" data-provider="getHotelappTestData" finished-at="2019-02-12T15:42:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Melbourne]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Cornice]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Super Deluxe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10 - Ten]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3 - Three]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3 - Three]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[26/02/2019]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[25/03/2019]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[The]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NightKing]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[BeyondTheWall]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[American Express]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[October]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSelectBookHotelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest@5e5792a0]" name="tearDown" is-config="true" duration-ms="811" started-at="2019-02-12T15:42:02Z" finished-at="2019-02-12T15:42:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.hotelapp.qa.testcases.searchBookConfirmHotelPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- HotelApp Test Cases -->
+  </suite> <!-- Hotel App Application Test Automation Test Suite -->
 </testng-results>

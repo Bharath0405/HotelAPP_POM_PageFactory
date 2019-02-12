@@ -18,7 +18,7 @@ public class searchBookConfirmHotelPageTest extends TestBase {
 	SearchBookConfirmHotelPage searchBookConfirmHotelPage;
 	LoginPage loginPage;
 	BookedItineraryPage bookedItineraryPage;
-	String sheetName = "bookingData";
+	String sheetName = "bookingDataOriginal";
 
 	public searchBookConfirmHotelPageTest() {
 		super();
@@ -50,14 +50,13 @@ public class searchBookConfirmHotelPageTest extends TestBase {
 	}
 
 	@Test(priority = 2, dataProvider = "getHotelappTestData")
-	public void searchSelectBookHotelTest(String hotelLocation, String hotelName, String roomType, String noOfRoms,
-			String audlts, String children, String checkIn, String checkOut, String firstName, String lastName,
-			String address, String ccNumber, String cvvNumber, String ccType, String expMonth, String expYear) {
+	public void searchSelectBookHotelTest(String hotelLocation, String hotelName, String roomType,  String noOfRoms, String audlts, String children, String checkIn, String checkOut,String firstName, String lastName,
+			String address, String ccType, String expMonth) {
 		
 		searchBookConfirmHotelPage.searchValues(hotelLocation, hotelName, roomType, noOfRoms, audlts, children);
 		searchBookConfirmHotelPage.datePickins(checkIn, checkOut);
 		searchBookConfirmHotelPage.serachAndSelectHotel();
-		searchBookConfirmHotelPage.bookAHotel(firstName, lastName, address, ccNumber, cvvNumber, ccType, expMonth, expYear);
+		searchBookConfirmHotelPage.bookAHotel(firstName, lastName, address, "1234123445674560", "4512", ccType, expMonth, "2021");
 		String confirmTitle = searchBookConfirmHotelPage.confirmBooking();
 		Assert.assertEquals(confirmTitle, "Booking Confirmation");
 
@@ -70,4 +69,5 @@ public class searchBookConfirmHotelPageTest extends TestBase {
 		driver.quit();
 	}
 
+	
 }
