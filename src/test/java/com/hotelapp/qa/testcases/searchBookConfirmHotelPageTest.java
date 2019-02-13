@@ -13,14 +13,14 @@ import com.hotelapp.qa.pages.HomePage;
 import com.hotelapp.qa.pages.LoginPage;
 import com.hotelapp.qa.pages.SearchBookConfirmHotelPage;
 
-public class searchBookConfirmHotelPageTest extends TestBase {
+public class SearchBookConfirmHotelPageTest extends TestBase {
 	HomePage homePage;
 	SearchBookConfirmHotelPage searchBookConfirmHotelPage;
 	LoginPage loginPage;
 	BookedItineraryPage bookedItineraryPage;
 	String sheetName = "bookingDataOriginal";
 
-	public searchBookConfirmHotelPageTest() {
+	public SearchBookConfirmHotelPageTest() {
 		super();
 	}
 

@@ -5,7 +5,7 @@
 <listeners>
 		<listener
 			class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
-	</listeners>
+	</listeners> 
 	
 	<test name="HotelApp Test Cases - Sanity Test">
 		<classes>

@@ -1,5 +1,7 @@
 package com.hotelapp.qa.pages;
 
-public class BookedItineraryPage {
+import com.hotelapp.qa.base.TestBase;
+
+public class BookedItineraryPage extends TestBase {
 
 }

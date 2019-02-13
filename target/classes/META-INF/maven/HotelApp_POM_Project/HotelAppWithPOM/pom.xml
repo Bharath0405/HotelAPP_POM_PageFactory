@@ -17,7 +17,7 @@
 		<maven.compiler.target>1.6</maven.compiler.target>
 	</properties>
 
-	<dependencies>
+		<dependencies>
 
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -33,13 +33,11 @@
 		</dependency>
 
 
-
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
-			<version>3.17</version>
+			<version>3.16-beta2</version>
 		</dependency>
-
 
 
 		<dependency>
@@ -116,6 +114,8 @@
 
 
 	</dependencies>
+
+
 
 
 

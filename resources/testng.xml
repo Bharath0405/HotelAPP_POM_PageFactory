@@ -3,8 +3,7 @@
 <suite name="Hotel App Application Test Automation Test Suite">
 
 	<listeners>
-		<listener
-			class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
 	</listeners>
 
 

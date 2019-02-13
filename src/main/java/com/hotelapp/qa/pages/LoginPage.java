@@ -25,6 +25,7 @@ public class LoginPage extends TestBase {
 	@FindBy(xpath="//img[contains(@class, 'logo')]")
 	WebElement logoImage;
 	
+		
 	//Initializing the Page Objects by creating a constructor
 	
 	public LoginPage() {
@@ -44,16 +45,17 @@ public class LoginPage extends TestBase {
 		return logoImage.isDisplayed();
 	}
 	
+	
+	
 	public HomePage login(String usr, String pwd) {
 		username.sendKeys(usr);
 		password.sendKeys(pwd);
 		loginBtn.click();
 		return new HomePage();//After the click, the page jumps to HomePage so we have to change the void to HomePage
-		
-		
 	}
 	
 	
+
 	
 	
 	
